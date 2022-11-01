@@ -1,0 +1,51 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
+/* nav start */
+nav{
+    background: #02918b;
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    width: 85%;
+}
+nav .main{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+nav .menu ul li a{
+    color: #fff;
+    display: block;
+    padding: 26px 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: 0.7s;   
+}
+nav .menu ul li:hover a{
+    color: #0b1016;
+    background: #cfc91d;
+}
+/* nav end */
